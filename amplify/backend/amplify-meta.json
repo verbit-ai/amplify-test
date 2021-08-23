@@ -1,23 +1,129 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-amplifytest2-dev-102820-authRole",
-      "UnauthRoleArn": "arn:aws:iam::869597975091:role/amplify-amplifytest2-dev-102820-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::869597975091:role/amplify-amplifytest2-dev-102820-authRole",
+      "AuthRoleName": "amplify-amplifytest-dev-114143-authRole",
+      "UnauthRoleArn": "arn:aws:iam::869597975091:role/amplify-amplifytest-dev-114143-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::869597975091:role/amplify-amplifytest-dev-114143-authRole",
       "Region": "eu-central-1",
-      "DeploymentBucketName": "amplify-amplifytest2-dev-102820-deployment",
-      "UnauthRoleName": "amplify-amplifytest2-dev-102820-unauthRole",
-      "StackName": "amplify-amplifytest2-dev-102820",
-      "StackId": "arn:aws:cloudformation:eu-central-1:869597975091:stack/amplify-amplifytest2-dev-102820/df7f3ba0-fff5-11eb-a17e-0ae8c75d2572",
-      "AmplifyAppId": "d1abjgwfym51wb"
+      "DeploymentBucketName": "amplify-amplifytest-dev-114143-deployment",
+      "UnauthRoleName": "amplify-amplifytest-dev-114143-unauthRole",
+      "StackName": "amplify-amplifytest-dev-114143",
+      "StackId": "arn:aws:cloudformation:eu-central-1:869597975091:stack/amplify-amplifytest-dev-114143/c98e87b0-0324-11ec-9528-02c23c15f28e",
+      "AmplifyAppId": "dgkg1l3zm4shs",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplifytest-dev-114143-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    }
+  },
+  "function": {
+    "amplifytestde0b851bDefineAuthChallenge": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2021-08-22T08:44:52.138Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2021-08-22T08:44:52.247Z",
+      "distZipFilename": "amplifytestde0b851bDefineAuthChallenge-596731592b562f303348-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-amplifytest-dev-114143-deployment",
+        "s3Key": "amplify-builds/amplifytestde0b851bDefineAuthChallenge-596731592b562f303348-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifytest-dev-114143-deployment/amplify-cfn-templates/function/amplifytestde0b851bDefineAuthChallenge-cloudformation-template.json",
+        "logicalId": "functionamplifytestde0b851bDefineAuthChallenge"
+      },
+      "lastPushTimeStamp": "2021-08-22T13:12:34.762Z",
+      "output": {
+        "Region": "eu-central-1",
+        "Arn": "arn:aws:lambda:eu-central-1:869597975091:function:amplifytestde0b851bDefineAuthChallenge-dev",
+        "Name": "amplifytestde0b851bDefineAuthChallenge-dev",
+        "LambdaExecutionRole": "amplifytestde0b851bDefineAuthChallenge-dev"
+      },
+      "lastPushDirHash": "l2gj49TQUA4XSrmSiqEc1+tGW0A="
+    },
+    "amplifytestde0b851bCreateAuthChallenge": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2021-08-22T08:44:52.140Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2021-08-22T08:44:52.252Z",
+      "distZipFilename": "amplifytestde0b851bCreateAuthChallenge-455766346279734e4745-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-amplifytest-dev-114143-deployment",
+        "s3Key": "amplify-builds/amplifytestde0b851bCreateAuthChallenge-455766346279734e4745-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifytest-dev-114143-deployment/amplify-cfn-templates/function/amplifytestde0b851bCreateAuthChallenge-cloudformation-template.json",
+        "logicalId": "functionamplifytestde0b851bCreateAuthChallenge"
+      },
+      "lastPushTimeStamp": "2021-08-22T13:12:34.764Z",
+      "output": {
+        "Region": "eu-central-1",
+        "Arn": "arn:aws:lambda:eu-central-1:869597975091:function:amplifytestde0b851bCreateAuthChallenge-dev",
+        "Name": "amplifytestde0b851bCreateAuthChallenge-dev",
+        "LambdaExecutionRole": "amplifytestde0b851bCreateAuthChallenge-dev"
+      },
+      "lastPushDirHash": "S1OVu060yMpz6YGiwxMhGkUrnBA="
+    },
+    "amplifytestde0b851bVerifyAuthChallengeResponse": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2021-08-22T08:44:52.140Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2021-08-22T08:44:52.373Z",
+      "distZipFilename": "amplifytestde0b851bVerifyAuthChallengeResponse-694a75477641506d5350-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-amplifytest-dev-114143-deployment",
+        "s3Key": "amplify-builds/amplifytestde0b851bVerifyAuthChallengeResponse-694a75477641506d5350-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifytest-dev-114143-deployment/amplify-cfn-templates/function/amplifytestde0b851bVerifyAuthChallengeResponse-cloudformation-template.json",
+        "logicalId": "functionamplifytestde0b851bVerifyAuthChallengeResponse"
+      },
+      "lastPushTimeStamp": "2021-08-22T13:12:34.765Z",
+      "output": {
+        "Region": "eu-central-1",
+        "Arn": "arn:aws:lambda:eu-central-1:869597975091:function:amplifytestde0b851bVerifyAuthChallengeResponse-dev",
+        "Name": "amplifytestde0b851bVerifyAuthChallengeResponse-dev",
+        "LambdaExecutionRole": "amplifytestde0b851bVerifyAuthChallengeResponse-dev"
+      },
+      "lastPushDirHash": "6XvqGU+k7VdgNoZ5+NoqjdfMQf4="
     }
   },
   "auth": {
-    "amplifytest2f37ff198": {
+    "amplifytestde0b851b": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false,
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "amplifytestde0b851bDefineAuthChallenge",
+          "triggerProvider": "Cognito",
+          "attributes": [
+            "Arn",
+            "Name"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "amplifytestde0b851bCreateAuthChallenge",
+          "triggerProvider": "Cognito",
+          "attributes": [
+            "Arn",
+            "Name"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "amplifytestde0b851bVerifyAuthChallengeResponse",
+          "triggerProvider": "Cognito",
+          "attributes": [
+            "Arn",
+            "Name"
+          ]
+        }
+      ],
+      "customAuth": true,
       "frontendAuthConfig": {
         "loginMechanism": [
           "EMAIL"
@@ -35,20 +141,20 @@
         ]
       },
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifytest2-dev-102820-deployment/amplify-cfn-templates/auth/amplifytest2f37ff198-cloudformation-template.yml",
-        "logicalId": "authamplifytest2f37ff198"
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifytest-dev-114143-deployment/amplify-cfn-templates/auth/amplifytestde0b851b-cloudformation-template.yml",
+        "logicalId": "authamplifytestde0b851b"
       },
-      "lastPushTimeStamp": "2021-08-18T07:33:09.021Z",
+      "lastPushTimeStamp": "2021-08-22T13:12:34.766Z",
       "output": {
-        "UserPoolId": "eu-central-1_RqrpLZoQ0",
-        "AppClientIDWeb": "13kamqfnnre0ahu5247bbpbdoe",
-        "AppClientID": "15gqa3vl4jsv4ahb3q6eb9g3fg",
-        "IdentityPoolId": "eu-central-1:f0ebcafc-df7e-4c4f-a97a-42b3913ce41f",
-        "UserPoolArn": "arn:aws:cognito-idp:eu-central-1:869597975091:userpool/eu-central-1_RqrpLZoQ0",
-        "IdentityPoolName": "amplifytest2f37ff198_identitypool_f37ff198__dev",
-        "UserPoolName": "amplifytest2f37ff198_userpool_f37ff198"
+        "UserPoolId": "eu-central-1_IIUiPXt2K",
+        "AppClientIDWeb": "4ab5nr2tllmf2k8ucsdedvk92o",
+        "AppClientID": "6ivirgntc3p7ujjkudmgvovn2u",
+        "IdentityPoolId": "eu-central-1:cc4f51a0-ade4-4c7f-a23b-e595ba871615",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-central-1:869597975091:userpool/eu-central-1_IIUiPXt2K",
+        "IdentityPoolName": "amplifytestde0b851b_identitypool_de0b851b__dev",
+        "UserPoolName": "amplifytestde0b851b_userpool_de0b851b"
       },
-      "lastPushDirHash": "EYMf8H39NaowB7jzLIa3CjDtIuI="
+      "lastPushDirHash": "r+8jiKE6NJshPAWmJDMBazQTeyc="
     }
   }
 }

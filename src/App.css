@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.captcha {
+display: flex;
+justify-content: center;
+align-items: center;
+padding:200px;
+}
