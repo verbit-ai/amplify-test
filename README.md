@@ -17,7 +17,8 @@ return h("div", null, "");
 ### `npm start`
 
 ## Add/Remove Fields:
-in `App.js` edit 'formFields' Array and add fields as required
+in `App.js` edit 'formFields' Array and add fields as required.
+For more details on this customization see the `amplify-form-field` [prop documentation](https://github.com/aws-amplify/amplify-js/tree/main/packages/amplify-ui-components/src/components/amplify-form-field#properties) and the internal `FormFieldType` [interface](https://github.com/aws-amplify/amplify-js/blob/main/packages/amplify-ui-components/src/components/amplify-auth-fields/amplify-auth-fields-interface.ts#L3).
 
 ## Design Changes:
 You can control top level components directly using CSS:
