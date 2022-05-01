@@ -2,6 +2,6 @@
   "dev": {
     "configLevel": "project",
     "useProfile": false,
-    "awsConfigFilePath": "/Users/shirdecker/.amplify/awscloudformation/mwgdutu2bL"
+    "awsConfigFilePath": "/Users/eliel/.aws/config"
   }
 }
